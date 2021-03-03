@@ -5,21 +5,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="styles/mainPage.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 </head>
 <body>
-		<header>
-			<div id="logo"><a href="index.html">Sassy<a id="logo-s">Signs</a></a></div>
-			<span class="home"><a class="homeN" href="index.html">Home</a></span>
-			<span class="gallery"><a class="galleryN" href="gallery.html">Gallery</a></span>
-			<span class="contact"><a class="contactN" href="contactUs.html">Contact Us</a></span>
-		</header>
-
-		<div class="slider">
-			<div class="myslider">
-				
-			</div>
+	<header>
+	<nav>
+		<img class="logo" src="logo.png">
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="contactUs.html">Contact Us</a></li>
+			</ul>
 		</div>
-
+	</nav>
+	<h1 class="title"> Sassy Signs </h1>
+	</header>
 		<hr>
 		<main>
 			<p> Information </p>
@@ -55,7 +56,16 @@
 				</ul>
 			</nav>
 		</footer>
-
+	<script type="text/javascript">
+		$(window).on("scroll", function() {
+			if($(window).scrollTop()) {
+				$('nav').addClass('black');
+			}
+			else {
+				$('nav').removeClass('black');
+			}
+		})
+	</script>
 </body>
 
 </html>

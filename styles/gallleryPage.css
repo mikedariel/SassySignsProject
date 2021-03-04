@@ -1,8 +1,74 @@
 body {
-	background:lightblue;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-..row {
+nav {
+  position:fixed;
+  width: 100%;
+  line-height: 60px;
+  background-color: #87D1F0;
+}
+
+nav ul {
+  float:right;
+  margin:0;
+  padding-right: 42px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 32px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white ;
+  font-size: 16px;
+  font-weight: bold;
+  display:block;
+}
+
+.logo {
+  height: 86px;
+  float:left;
+  margin: 16px 28px;
+}
+
+h1 {
+  font-size:48px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-weight: bold;
+  text-align: center;
+  padding-top:125px;
+  background-color: black;
+  color:white;
+}
+
+main {
+  width: 80%;
+  margin: 50px auto;
+}
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #333;
+  text-align: justify;
+}
+
+nav.black {
+  background:#87D1F0;
+}
+
+nav li a:hover {
+  text-decoration: underline overline;
+}
+
+
+.row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
@@ -36,45 +102,3 @@ body {
     max-width: 100%;
   }
 }
-=======
-body {
-	background:lightblue;
-}
-*{
-    box-sizing: border-box;
-}
-..row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (min-width: 600px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (min-width: 800px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
->>>>>>> c84b36c8aacc8980810f798447553a0ee6156cd9:mycss.css

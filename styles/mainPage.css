@@ -1,35 +1,82 @@
 body {
-  margin:0;
-  padding:0;
-  font-family:sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 header {
-  background: blue, url(../gallery/image36.jpg);
+  background: url('../gallery/image36.jpg');
+  background-position: center; 
   background-size: cover;
-  background-position: center;
   height: 100vh;
 }
 
 nav {
   position:fixed;
-  width:100%;
+  width: 100%;
   line-height: 60px;
+  background-color: #87D1F0;
 }
 
-nav ul{
+nav ul {
   float:right;
-  margin: 0;
+  margin:0;
   padding-right: 42px;
 }
 
 nav ul li {
   display: inline-block;
-  padding:16px 32px;
+  padding: 16px 32px;
 }
 
-nav ul li a {
+nav ul li a{
   text-decoration: none;
-  color: black;
+  color: white ;
   font-size: 16px;
+  font-weight: bold;
+  display:block;
+}
+
+.logo {
+  height: 86px;
+  float:left;
+  margin: 16px 28px;
+}
+
+h1 {
+  font-size:48px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-weight: bold;
+  text-align: center;
+  padding-top:125px;
+  background-color: black;
+  color:white;
+}
+
+main {
+  width: 80%;
+  margin: 50px auto;
+}
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #333;
+  text-align: justify;
+}
+
+nav.black {
+  background:#87D1F0;
+}
+
+nav li a:hover {
+  text-decoration: underline overline;
+}
+
+footer {
+  background-color: #DCDCDC;
+  position:relative;
+  height:40px;
+  clear:both;
 }

@@ -1,11 +1,14 @@
 body {
   margin: 0;
   padding: 0;
+  top:0;
+  bottom:0;
   font-family: sans-serif;
 }
 
 header {
   background: url('../gallery/image43.jpg');
+  background-repeat:no-repeat;
   background-position: center; 
   background-size: cover;
   height: 100vh;
@@ -53,19 +56,10 @@ h1 {
   background-color: black;
   color:white;
 }
-
-main {
-  width: 80%;
-  margin: 50px auto;
-}
-
 p {
-  font-size: 18px;
-  line-height: 28px;
   color: #333;
   text-align: justify;
 }
-
 nav.black {
   background:#87D1F0;
 }
@@ -74,9 +68,108 @@ nav li a:hover {
   text-decoration: underline overline;
 }
 
+.button {
+  border-radius: 4px;
+  background-color: #87D1F0;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 660px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button a{
+  text-decoration: none;
+  color: white;
+}
+
+.socialCommunity {
+  background-color:#F3F3F3;
+  font-size:24px;
+  font-weight:bold;
+  margin: auto;
+  padding:20px;
+}
+
+.socialCommunity p {
+  text-align: center;
+}
+
+main {
+  width: 80%
+  padding-left: 200px;
+}
+
+.mainContainer {
+  display:flex;
+  padding:20px;
+  flex-direction:row;
+}
+
+.Container1, .Container2{
+  margin:auto;
+  border: 5px groove black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 40%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.fb {
+  text-decoration: none;
+  color:#87D1F0;
+}
+
 footer {
-  background-color: #DCDCDC;
-  position:relative;
-  height:40px;
-  clear:both;
+  background-color:#87D1F0;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerSocials, .footerInfo {
+  margin:auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.fb2, footer p {
+  text-decoration:none;
+  color:white;
+}
+
+.follow {
+  font-weight: bold;
+  font-size:18px;
 }

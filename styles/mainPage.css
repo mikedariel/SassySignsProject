@@ -1,0 +1,35 @@
+body {
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+}
+
+header {
+  background: blue, url(../gallery/image36.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+nav {
+  position:fixed;
+  width:100%;
+  line-height: 60px;
+}
+
+nav ul{
+  float:right;
+  margin: 0;
+  padding-right: 42px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding:16px 32px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}

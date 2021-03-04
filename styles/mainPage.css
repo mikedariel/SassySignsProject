@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background: url('../gallery/image36.jpg');
+  background: url('../gallery/image43.jpg');
   background-position: center; 
   background-size: cover;
   height: 100vh;
@@ -44,7 +44,7 @@ nav ul li a{
 }
 
 h1 {
-  font-size:48px;
+  font-size:36px;
   text-transform:uppercase;
   letter-spacing:2px;
   font-weight: bold;

@@ -217,3 +217,16 @@ footer {
     left: -300%;
   }
 }
+
+@media screen and (max-width: 800px) {
+   .inner-grid {
+      flex: 50%;
+      max-width: 50%;
+   }
+}
+@media screen and (max-width: 600px) {
+  .inner-grid {
+      flex: 50%;
+      max-width: 50%;
+   }
+}

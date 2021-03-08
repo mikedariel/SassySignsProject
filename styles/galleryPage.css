@@ -74,11 +74,13 @@ nav li a:hover {
 h1 {
    text-align: center;
 }
+
 .outer-grid {
    display: flex;
    flex-wrap: wrap;
    padding: 0 4px;
 }
+
 .inner-grid {
    flex: 25%;
    max-width: 25%;

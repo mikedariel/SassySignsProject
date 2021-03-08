@@ -202,7 +202,6 @@ footer {
     width: 650px;
 }
 
-
 @keyframes slider {
   0% {
     left: 0;
@@ -229,9 +228,6 @@ footer {
     left: -300%;
   }
 }
-<<<<<<< HEAD
-
-
 
 @media screen and (max-width: 800px) {
   .mainContainer {
@@ -424,5 +420,3 @@ footer {
   }
 
 }
-=======
->>>>>>> a14a26dcf4a272fbf20aa83d37ba980af36632bc

@@ -5,16 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="styles/contactPage.css">
+				<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 <body>
 	<div id="bodyCointainer">
 		<div class="header">
-			<h1><!--Link to home -->Sassy Signs Greenville</h1>
 				<nav class="mainNav">
+					<img class="logo" src="gallery/Sassy Signs Logo.png">
 					<ul>
-						<li>Home</li>
-						<li>Gallery</li>
-						<li>Contact Us</li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contactUs.html">Contact</a></li>
 					</ul>
 				</nav>
 		</div>
@@ -22,29 +23,26 @@
 		<main>
 			<div>
 				<p> Catalog </p>
+				<img class = "catalog" src="gallery/catalog1.png">
+				<img class = "catalog" src="gallery/catalog2.png">
 			</div>
-			<p> Some text </p>
+			<p> Are you interested in renting from us? Fill out our form or send us a email! </p>
 			<form action="mailto:someone@example.com" method="post" enctype="text/plain">
 				<!-- Name -->
-				<label for="fname">First name:</label><br>
-				<input type="text" id="fname" name="fname"><br>
-				<label for="lname">Last name:</label><br>
-				<input type="text" id="lname" name="lname">
+
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
 
 				<!-- Email -->
 				Email:
 				<input type="text" name="mail"><br>
 				<!-- Checkbox -->
-				<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-				<label for="vehicle1"> Text </label><br>
-				<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-				<label for="vehicle2"> Text </label><br>
-				<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-				<label for="vehicle3"> Text </label>
+
 
 				<!-- Comments -->
 				<label for="fname">Comments</label><br>
   				<input type="text" id="fname" name="fname"><br>
+					<button>Submit</button>
 
 			</form>
 		</main>
@@ -63,9 +61,9 @@
 			</div>
 			<nav class="footerNav">
 				<ul>
-					<li>Home</li>
-					<li>Gallery</li>
-					<li>Contact Us</li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="contactUs.html">Contact</a></li>
 				</ul>
 			</nav>
 		</footer>

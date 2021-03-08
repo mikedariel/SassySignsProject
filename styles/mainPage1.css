@@ -7,16 +7,12 @@ body {
   width:100%;
 }
 
-header {
-  background: url('../gallery/image43.jpg');
-  background-repeat:no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-}
-
 #checkbox1 {
   display: none;
+}
+
+.mainImg {
+  width:100%;
 }
 
 nav {

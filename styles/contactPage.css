@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  top: 0;
+  bottom: 0;
   font-family: sans-serif;
 }
 
@@ -9,11 +11,12 @@ nav {
   width: 100%;
   line-height: 60px;
   background-color: #87D1F0;
+  z-index: 1;
 }
 
 nav ul {
-  float:right;
-  margin:0;
+  float: right;
+  margin: 0;
   padding-right: 42px;
 }
 
@@ -32,7 +35,7 @@ nav ul li a{
 
 .logo {
   height: 86px;
-  float:left;
+  float: left;
   margin: 16px 28px;
 }
 
@@ -56,18 +59,18 @@ nav li a:hover {
 }
 
 input[type=text], select, textarea {
-  width: 50%; /* Full width */
+  width: 50%;
   height: 5%;
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 40px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  resize: vertical
 }
 
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -75,4 +78,26 @@ input[type=text], select, textarea {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+footer {
+  background-color:#87D1F0;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerSocials, .footerInfo {
+  margin:auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.fb2, footer p {
+  text-decoration:none;
+  color:white;
+}
+
+.follow {
+  font-weight: bold;
+  font-size:18px;
 }

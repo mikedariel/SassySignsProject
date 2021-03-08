@@ -9,7 +9,7 @@ body {
 header {
   background: url('../gallery/image43.jpg');
   background-repeat:no-repeat;
-  background-position: center; 
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
@@ -212,7 +212,7 @@ footer {
   }
   75% {
     left: -300%;
-  } 
+  }
   95% {
     left: -300%;
   }

@@ -5,6 +5,11 @@ body {
   
 }
 
+.follow {
+  font-weight: bold;
+  font-size:18px;
+}
+
 #checkbox1 {
   display: none;
 }

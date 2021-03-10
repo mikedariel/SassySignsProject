@@ -14,6 +14,11 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.follow {
+  font-weight: bold;
+  font-size:18px;
+}
+
 nav {
   position:fixed;
   width: 100%;

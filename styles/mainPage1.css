@@ -497,7 +497,7 @@ footer {
     margin-bottom: 5px;
     position: relative;
     
-    background: #cdcdcd;
+    background: white;
     border-radius: 3px;
     
     z-index: 1;
@@ -583,8 +583,8 @@ footer {
   {
     transform: none;
   } .logo {
-    width:50%;
-    top:0;
+    height:80px;
+    margin-left:120px;
   }
 
 }

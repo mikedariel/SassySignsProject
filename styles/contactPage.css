@@ -118,6 +118,7 @@ footer {
   font-size:18px;
 }
 
+/* phone */
 @media screen and (max-width: 480px) {
 #menuToggle {
     display: block;
@@ -263,5 +264,15 @@ footer {
     height:80px;
     margin-left:120px;
   }
+
+} 
+
+/* ipad */
+@media screen and (max-width: 800px) {
+
+} 
+
+/* smalll laptop */
+@media screen and (max-width: 1024px) {
 
 }

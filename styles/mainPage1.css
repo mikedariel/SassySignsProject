@@ -5,6 +5,7 @@ body {
   bottom:0;
   font-family: sans-serif;
   width:100%;
+  font-family: Arial, sans-serif;
 }
 
 #checkbox1 {
@@ -86,6 +87,7 @@ nav li a:hover {
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
+  font-family: 'Brush Script MT', cursive;
 }
 
 .button span {
@@ -149,6 +151,7 @@ main {
 
 h2 {
   text-align: center;
+  font-family: 'Brush Script MT', cursive;
 }
 
 .fb {
@@ -235,7 +238,7 @@ footer {
      margin-bottom: 20px;
   } 
   .imgSlider {
-    width: 300px;
+    width: 400px;
   }
     @keyframes slider {
     0% {
@@ -308,6 +311,10 @@ footer {
 
 } 
 @media screen and (max-width: 480px) {
+   p {
+      font-size: 14px;
+   }
+
    .mainContainer {
       flex-direction:column;
       margin:0;

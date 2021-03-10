@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
+  
 }
 
 nav {
@@ -46,6 +47,10 @@ h1 {
   background-color: black;
   color:white;
 }
+h2{
+   font-family: 'Brush Script MT', cursive;
+    text-align: center;
+}
 
 main {
   width: 80%;
@@ -79,6 +84,7 @@ h1 {
    display: flex;
    flex-wrap: wrap;
    padding: 0 4px;
+   justify-content: center;
 }
 
 .inner-grid {
@@ -102,4 +108,16 @@ h1 {
       flex: 100%;
       max-width: 100%;
    }
+}
+
+footer {
+  background-color:#87D1F0;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerSocials, .footerInfo {
+  margin:auto;
+  padding: 20px;
+  width: 100%;
 }

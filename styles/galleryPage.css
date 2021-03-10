@@ -5,6 +5,10 @@ body {
   
 }
 
+#checkbox1 {
+  display: none;
+}
+
 nav {
   position:fixed;
   width: 100%;

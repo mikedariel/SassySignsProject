@@ -407,9 +407,11 @@ footer {
 @media screen and (max-width: 480px) {
    .mainContainer {
       flex-direction:column;
+      margin:0;
+      padding:0;
   } 
   .Container1 {
-    width: 100%;
+    width: 80%;
     margin-bottom: 10px;
   } 
   .imgSlider {
@@ -580,6 +582,9 @@ footer {
   #menuToggle input:checked ~ ul
   {
     transform: none;
+  } .logo {
+    width:50%;
+    top:0;
   }
 
 }

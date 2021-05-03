@@ -9,7 +9,7 @@
 <body>
 	<div class="header">
 			<nav role="navigation">
-			<img class="logo" src="gallery/Sassy Signs Logo.png">
+			<a href="index.html"><img class="logo" src="gallery/SassySignsLogo1.png"></a>
 			  <div id="menuToggle">
 
 			    <input type="checkbox" id="checkbox1" />
@@ -20,66 +20,95 @@
 
 
 			    <ul id="menu">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
 					<li><a href="gallery.html">Gallery</a></li>
 					<li><a href="contactUs.html">Contact</a></li>
 				</ul>
 			  </div>
 			</nav>
 		</div>
-		<div class="outer-grid"></div>
 		<main>
-			<div>
+			<div class="space"></div>
+			<div class="mainContainer">
+				<div class="Container1">
+						<h2> The Process </h2>
+						<p>We hand make each sign from scratch!  We purchase 4’x8’ sheets of plywood.  We find what graphic we want to make, project it on the wood, trace it out and cut it with a jigsaw.  We then sand and paint the sign and add our personal, decorative touches to each one. </p>
+						<p>Our signs are $65 for the first sign and $10 each additional sign. This price included personalization and delivery within a 15 mile radius of I85/385 in Greenville, SC. If it is outside that delivery area, there is an additional charge of $1 per mile for setup and pickup. These signs stay up for approximately 48 hours. For our baby announcement signs, they are $85 and that includes a medallion for them to keep personalized with the birth information. These stay up for 5 days.</p>
+						<p>When you have looked through the catalog and chosen what signs you want to purchase, simply use the contact page to describe your order to Sassy Signs Greenville.</p>
+				</div>
+				<div class="Container1">
+						<h2> Satisfied Customers </h2>
+						<p> <b>Jamie Cramer:</b> “We’ve used Sassy Signs Greenville twice for birthday morning surprises!  What a fun and perfect way to celebrate someone and make them feel super special.  It’s easy, it’s customized, and they are amazing to work with!  We’ll definitely do it again!” </p>
+						<p><b>April Louris:</b> “What a fun surprise for our daughter to wake up and see these great big brightly painted, fun, themed signs in the front yard celebrating her birthday! It was like a ninja came in the night and installed them, then removed then the night after her birthday just as effortlessly! There was no work on my part other than a phone call. Smiles on her face was worth every penny! This company knows what they are doing!” </p>
+						<p><b>Elizabeth Palmer:</b> “We love it!  Thanks for making our daughter’s birthday so special!”</p>
+					    <p><b>Wendy Raven:</b>“Thank you so much for helping us make our daughter’s day extra special!”</p>
+				</div>
+			</div>
 				<br>
-				<br>
-				<br>
-				<br>
+			<div class='catalogCon'>
 				<img class = "catalog" src="gallery/catalog1.png">
 				<img class = "catalog" src="gallery/catalog2.png">
 				<img class = "catalog" src="gallery/catalog3.png">
+				<img class = "catalog" src="gallery/catalog4.png">
+				<img class = "catalog" src="gallery/catalog5.png">
 			</div>
-			<p> Are you interested in renting from us? Fill out our form or send us a email! </p>
+			<h2> Are you interested in renting from us? Fill out our form or send us a email! </h2>
 			<form action="mailto:sassysignsgreenville@gmail.com" method="post" enctype="text/plain">
-				<!-- Name -->
-
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name"><br>
-
-				<!-- Email -->
-				Email:
-				<input type="text" name="mail"><br>
-				<!-- Checkbox -->
-
-
-				<!-- Comments -->
-				<label for="fname">Comments</label><br>
-  				<input type="text" id="fname" name="fname"><br>
-					<button>Submit</button>
-
+				<ul class="form-style-1">
+				    <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+				    <li>
+				        <label>Email <span class="required">*</span></label>
+				        <input type="email" name="field3" class="field-long" />
+				    </li>
+				    <li>
+				        <label>Phone Number <span class="required">*</span></label>
+				        <input type="email" name="field3" class="field-long" />
+				    </li>
+				    <li>
+				        <label>Number of Signs Needed <span class="required">*</span></label>
+				        <input type="email" name="field3" class="field-long" />
+				    </li>
+				     <li>
+				        <label>When do you need it by? <span class="required">*</span></label>
+				        <input type="email" name="field3" class="field-long" />
+				    </li>
+				    <li>
+				        <label>Type of Signs</label>
+				        <select name="field4" class="field-select">
+				        <option value="Advertise">Birthdays</option>
+				        <option value="Partnership">Baby Showers</option>
+				        <option value="General Question">Holidays</option>
+				        <option value="General Question">Other</option>
+				        </select>
+				    </li>
+				    <li>
+				        <label>Your Message <span class="required">*</span></label>
+				        <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+				    </li>
+				    <li>
+				        <input type="submit" value="Submit" />
+				    </li>
+				</ul>
 			</form>
+			<br>
+			<div class="socialCommunity">
+				<p>Join our "Sassy" community on our socials &#128525;</p>
+				<p>@sassysignsgreenville on <a href="https://www.facebook.com/sassysignsgreenville/" class="fb">Facebook</a> & <a href="https://www.instagram.com/sassysignsgreenville/" class="fb">Instagram</a></p>
+			</div>
 		</main>
 		<footer>
 			<!-- maybe add a small email form for marketing newsletter if they wanted -->
 			<div class="footerSocials">
 				<p class="follow"> Follow us.. </p>
-				<p> <a href ="https://www.facebook.com/" class="SMfooter"> Facebook </a></p>
-				<p> <a href ="https://www.instagram.com/" class="SMfooter">Instagram </a></p>
+				<p> <a href="https://www.facebook.com/sassysignsgreenville/" class="fb2">Facebook</a></p>
+				<p> <a href="https://www.instagram.com/sassysignsgreenville/" class="fb2">Instagram</a></p>
 			</div>
 			<div class="footerInfo">
-				<p class="follow"> Sassy Signs Greenville, South Carolina</p>
+				<p class="follow"> Sassy Signs Greenville, South Carolina </p>
 				<p> Email: sassysignsgreenville@gmail.com </p>
 				<p> Phone Number: 864-281-0628 </p>
 			</div>
-			<nav class="footerNav">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
-					<li><a href="contactUs.html">Contact</a></li>
-				</ul>
-			</nav>
 			<br>
-			<br>
-			
 		</footer>
 </body>
 

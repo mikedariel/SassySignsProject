@@ -5,6 +5,23 @@ body {
   
 }
 
+footer {
+  background-color:#87D1F0;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerSocials, .footerInfo {
+  margin:auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.fb2, footer p {
+  text-decoration:none;
+  color:white;
+}
+
 .follow {
   font-weight: bold;
   font-size:18px;
@@ -12,6 +29,24 @@ body {
 
 #checkbox1 {
   display: none;
+}
+
+.socialCommunity {
+  width:100%;
+  background-color:#F3F3F3;
+  font-size:24px;
+  font-weight:bold;
+  margin: auto;
+  padding:20px;
+}
+
+.socialCommunity p {
+  text-align: center;
+}
+
+.fb {
+  text-decoration: none;
+  color:#87D1F0;
 }
 
 nav {
@@ -24,6 +59,7 @@ nav {
 nav ul {
   float:right;
   margin:0;
+  padding-top:10px;
   padding-right: 42px;
 }
 
@@ -35,13 +71,13 @@ nav ul li {
 nav ul li a{
   text-decoration: none;
   color: white ;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   display:block;
 }
 
 .logo {
-  height: 86px;
+  height: 96px;
   float:left;
   margin: 16px 28px;
 }
